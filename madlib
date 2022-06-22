@@ -1,0 +1,33 @@
+#string concatination and creating a mad lib.........
+
+print('''This paragraph is about the computer
+    The computer ____(verb1) a commonly operated machine that helps in completing our basic needs.
+    Today most of the ____(noun1) uses computer. Thus it become ___(verb2) important factor in our 
+    society.
+    
+   Computer was created by _____(noun2) in year 1822. Firstly it is used for the basic operations 
+   like calculations ____(verb3) the numbers. Then due to the increase in the technology factor 
+   it become availble for every person due to creation of the computer become cheaper as the rise
+   in technology. Now there are ____(adj1) computer in the world maybe uncountable.''')
+print("")
+print("Enter the suitable words according to you")
+print("")
+verb1=input("Verb1 = ")
+verb2=input("Verb2 = ")
+verb3=input("Verb3 = ")
+noun1=input("Noun1 = ")
+noun2=input("Noun2 = ")
+adj1=input("Adj1 = ")
+print("")
+print(f''' Output
+    This paragraph is about the computer
+
+    The computer {verb1} a commonly operated machine that helps in completing our basic needs.
+     Today most of the {noun1} uses computer. Thus it become {verb2} important factor in our 
+    society.
+    
+   Computer was created by {noun2} in year 1822. Firstly it is used for the basic operations 
+    like calculations {verb3} the numbers. Then due to the increase in the technology factor 
+   it become availble for every person due to creation of the computer become cheaper as the rise
+   in technology. Now there are {adj1} computer in the world maybe uncountable.
+''')
